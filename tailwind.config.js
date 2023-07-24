@@ -3,24 +3,23 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
-      fontFamoly: {
-        mulish: ["Mulish", "sans-serif"],
+      fontFamily: {
+        mullish: ["Mulish", "sans-serif"],
       },
       colors: {
         deepBlue: "#02042a",
-        LightBlue: "#2b84ea",
+        lightBlue: "#2b84ea",
         lightBlue300: "#4b94ed",
-
-        LightBlue500: "#0072e7",
+        lightBlue500: "#0b72e7",
         greenLight: "#61cea6",
-
         grayText: "#818597",
-        LightGray: "#e2e2e2",
-
+        lightGray: "#e2e2e2",
         grayBlue: "#344a6c",
-
-        deepBlueHead: "#162156",
+        deepBlueHead: "#162f56",
         gray2: "#525a76",
+      },
+      backgroundImage: {
+        "feature2-img": "url('assets/feature-section-2BG.svg')",
       },
     },
   },
